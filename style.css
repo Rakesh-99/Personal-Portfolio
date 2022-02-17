@@ -76,6 +76,7 @@ nav .navBar {
   width: 96%;
   align-items: center;
   margin: auto;
+  
 }
 .menu {
   display: flex;
@@ -472,8 +473,20 @@ section .title span {
   background-color: var(--primary-color);
   border: 1px solid transparent;
   color: var(--white-color);
-  font-weight: 700;
-  border-radius: 3px;
+  font-weight: 200;
+  border-radius: 4px;
+  transition: 0.2s all;
+}
+.workBox .more .seeMore button:hover {
+  background-color: transparent;
+  transform: scale(1.03);
+  border: 1px solid white;
+}
+.workBox .more .seeMore button a:hover{
+  color: var(--white-color)
+  font-weight: 200;
+
+
 }
 .workBox .more {
   display: flex;
@@ -513,6 +526,8 @@ section .title span {
   padding: 5% 0;
   width: 50%;
   background-color: #f0f8ff;
+  border-radius: 4px;
+
 }
 
 .contact .data .leftContainer .inputBoxes input {
@@ -521,6 +536,8 @@ section .title span {
   padding: 5px;
   border: none;
   border-bottom: 1px solid var(--primary-color);
+  border-radius: 4px;
+
 }
 .contact .data .leftContainer .inputBoxes .msg {
   padding: 30px 5px;
@@ -530,9 +547,10 @@ section .title span {
   color: var(--white-color);
   padding: 10px;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 400;
   cursor: pointer;
   border: transparent;
+  border-radius: 4px;
 }
 
 .contact .rightContainer {
@@ -540,11 +558,14 @@ section .title span {
   box-sizing: border-box;
   background-color: #f0f8ff;
   padding: 5% 0;
+  border-radius: 4px;
+
 }
 .contact .leftRightBox {
   display: flex;
   justify-content: space-between;
   padding: 5% 30px;
+
 }
 .contact .leftContainer .inputBoxes {
   text-align: center;
@@ -565,6 +586,14 @@ section .title span {
 .contact .leftRightBox .rightContainer .textBoxes .phone span {
   font-weight: 900;
 }
+
+
+
+
+      /* footer  */
+
+
+      
 footer {
   height: 60px;
   /* width: 100%; */
