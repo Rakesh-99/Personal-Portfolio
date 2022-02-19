@@ -337,7 +337,7 @@ section .title span {
 }
 .leftContent .topic p {
   text-align: justify;
-  line-height: 50px;
+  line-height: 25px;
   font-weight: 100;
   color: var(--grey-color);
   font-size: 14px;

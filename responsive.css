@@ -118,9 +118,9 @@
     font-size: 17px;
   }
   /* .about .content .about-details .right p {
-    font-size: 13px;
+    font-size: 103px;
     text-align: justify;
-    line-height: 10px;
+    line-height: 100px;
   } */
   .skills .container .textHead span {
     font-size: 17px;
@@ -130,7 +130,7 @@
   }
   .skills .container .leftContent .topic p {
     font-size: 10px;
-    line-height: 16px;
+    line-height: 19px;
     text-align: justify;
   }
   .skills .rightContent .boxes .box .skillName {
