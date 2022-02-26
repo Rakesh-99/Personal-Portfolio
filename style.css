@@ -414,7 +414,6 @@ section .title span {
 }
 .project .prjContainer .boxes:hover {
   box-shadow: -10px 10px 10px  rgba(29, 28, 28, 0.4);
-  transform: scale(1.1);
 }
 
 .project .prjContainer .workBox {
@@ -438,7 +437,7 @@ section .title span {
   object-fit: cover;
 }
 .project .boxes #box2{
-  background: url(images/project2.png);
+ background:url(images/Ecommerce\ Image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
