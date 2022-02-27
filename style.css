@@ -276,6 +276,7 @@ section .topic {
   color: rgb(117, 109, 109);
   margin-top: 16px;
   font-family: calibri;
+  text-align: justify;
 }
 .about-details {
   margin-top: 58px;
@@ -323,11 +324,12 @@ section .title span {
 }
 .leftContent .paraHead {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 100;
 }
 .leftContent .topic {
   padding: 25px 0;
 }
+
 .contentHead {
   display: flex;
   justify-content: space-between;
@@ -339,7 +341,7 @@ section .title span {
   text-align: justify;
   line-height: 25px;
   font-weight: 100;
-  color: var(--grey-color);
+  color: rgb(78 77 76);
   font-size: 14px;
 }
 .skills .leftContent .exp {
@@ -387,30 +389,30 @@ section .title span {
 /* Project Section */
 
 .project .prjContainer {
-  padding: 65px 0;
+  padding: 15px 0;
   background-color: rgb(131, 137, 150);
   /* height: 179vh; */
 }
 .project .prjContainer span {
   color: var(--white-color);
-  font-size: 30px;
-  font-weight: 900;
-  border-bottom: 3px solid var(--primary-color);
+  font-size: 25px;
+  font-weight: 100;
+  
 }
 .project .prjContainer {
   text-align: center;
 }
 
 .project .prjContainer .boxes {
-  padding: 20px;
-  height: 265px;
+  padding: 20px 20px;
+  height: 210px;
   width: 300px;
-  border: 1px solid transparent;
-  margin: 20px 20px;
+  border: 1px solid white;
+  margin: 12px 20px;
   border-radius: 5px;
   border: 1 px solid grey;
   transition: all 0.5s ease;
-
+  box-sizing: border-box;
 }
 .project .prjContainer .boxes:hover {
   box-shadow: -10px 10px 10px  rgba(29, 28, 28, 0.4);
@@ -438,7 +440,7 @@ section .title span {
 }
 .project .boxes #box2{
  background:url(images/Ecommerce\ Image.png);
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -482,7 +484,7 @@ section .title span {
   border: 1px solid white;
 }
 .workBox .more .seeMore button a:hover{
-  color: var(--white-color)
+  color: var(--white-color);
   font-weight: 200;
 
 
@@ -493,10 +495,10 @@ section .title span {
   width: 100%;
   margin: 40px 0;
 }
-.project .caption .spnCls {
+/* .project .caption .spnCls {
   font-size: 20px;
   border-bottom: 1px solid var(--primary-color);
-}
+} */
 .project .caption .spnCls a{
   color: var(--white-color);
 }

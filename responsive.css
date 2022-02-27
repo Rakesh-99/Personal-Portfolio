@@ -91,8 +91,23 @@
 }
 @media (max-width: 420px) {
   .about .content .about-details .left img {
-    width: 205px;
-    height: 140px;
+    width: 290px;
+    height: 181px;
+  }
+  .home-Content .text3 {
+    font-size: 15px;
+  }
+  .home-Content .profile img {
+    width: 80px;
+  }
+  section .content {
+    width: 70%;
+  }
+  .button button {
+    margin-top: 40px;
+  }
+  .contact .data .leftContainer .inputBoxes input {
+    width: 270px;
   }
 }
 @media (max-width: 290px) {
@@ -158,34 +173,30 @@
 @media (max-width: 720px) {
   .navBar .menu {
     flex-direction: column;
-
   }
   .navBar .menu li {
-    margin: 5px 0;
+    margin: 15px 0;
   }
   nav .navBar {
     flex-direction: column;
-
   }
   .media-icons {
     justify-content: center;
   }
-  
- .invisible-resp{
+
+  .invisible-resp {
     display: none;
-    
- }
- nav-height{
-   height: 275px;
- }
- nav{
-   background-color:rgb(61, 59, 59);
- }
+  }
+  nav-height {
+    height: 275px;
+  }
+  nav {
+    background-color: rgb(61, 59, 59);
+  }
   .media-icons {
     width: 100%;
     text-align: center;
   }
- 
 }
 
 @media (max-width: 360px) {
