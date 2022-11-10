@@ -452,8 +452,31 @@ section .title span {
   background-size: cover;
   object-fit: cover;
 }
+.project .boxes #box4{
+  background: url(images/AgeCalculator.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.project .boxes #box5{
+  background: url(images/DigitalWatch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
 .project .boxes #box6{
   background: url(images/project3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+}
+
+.project .boxes #box7{
+  background: url(images/Veterinary.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
